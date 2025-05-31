@@ -1,0 +1,15 @@
+my_tuple = (192, 193, "turtle neck", 1.6, "arr")
+print(my_tuple)
+my_tuple = ("firework", [192, 193, 194], [1.92, 1.93, 1,94, 1.95])
+print(my_tuple)
+my_tuple = ("a", "r", "z", "o", "o", "bench press")
+print(my_tuple[0])
+print(my_tuple[1])
+print(my_tuple[2])
+print(my_tuple[5])
+n_tuple = ("firework", [192, 193, 194], [1.92, 1.93, 1.94, 1.95])
+print(n_tuple[1][2])
+print("Sliced: ", my_tuple[0:5])
+for letter in (my_tuple):
+    print("Hello", letter)
+
