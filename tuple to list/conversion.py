@@ -1,0 +1,8 @@
+firstName = input("Write your first name: ")
+lastName = input("Write your last name: ")
+age = int(input("Write your age: "))
+height = int(input("Write your height (in CM): "))
+weight = int(input("Write your weight (in KG): "))
+my_tupe = (firstName, lastName, age, height, weight)
+persondata = list(my_tupe)
+print(persondata)
