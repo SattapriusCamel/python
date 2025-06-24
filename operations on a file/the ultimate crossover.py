@@ -1,0 +1,15 @@
+file_read = open('momo.txt', 'r')
+print("File in Read Mode")
+print(file_read.read())
+file_read.close()
+
+file_write = open('momo.txt','w')
+file_write.write("Writing smth...")
+file_write.write("Kalle Anka +\n  Musse Pigg + \nLångben")
+file_write.close()
+
+file_append = open('momo.txt','a')
+file_append.write("\nKal \nKal")
+file_append.write("\n Musse \nPigg")
+file_append.write("\n L \n å \n n \n g \n b \n e \n n")
+file_append.close()
